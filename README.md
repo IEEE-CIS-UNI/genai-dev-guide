@@ -12,7 +12,7 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
   - Familiaridad con la línea de comandos GNU/Linux.  
 
 - **Herramientas necesarias**:  
-  - Cuenta en **Google Cloud Platform (GCP)** con acceso a Vertex AI.  
+  - Cuenta en **Google Cloud Platform (GCP)** con habilitación de facturación.  
   - Cuenta en **GitHub**.  
   - **Git** instalado.  
   - **Docker** y **docker-compose** instalados.  
@@ -114,21 +114,22 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
 
 **Objetivo:** Llevar tu aplicación al mundo real, lista para escalar y ser monitoreada en todo momento.
 
-1. **Herramientas de Despliegue en GCP**  
+1. **Herramientas de Despliegue en GCP**
+   - Crear alertas de facturación.
    - Introducción a Cloud Run y ventajas del modelo serverless.  
    - Configuración de un servicio en Cloud Run.  
    - Uso de Cloud Build para automatizar construcción de imágenes.  
    - Publicación en Container Registry.  
    - GitHub Actions.  
 
-2. **Lanzamiento a Producción**  
+3. **Lanzamiento a Producción**  
    - Proceso paso a paso para desplegar una aplicación.  
    - Integración de Cloud Build con Cloud Run.  
    - Configuración de variables de entorno.  
    - Acceso seguro a través de URL pública.  
    - Estrategias de despliegue sin interrupciones.  
 
-3. **Monitoreo y Observabilidad**  
+4. **Monitoreo y Observabilidad**  
    - Uso de Cloud Logging para ver registros en tiempo real.  
    - Búsqueda y filtrado de logs.  
    - Creación de paneles en Cloud Monitoring.  
