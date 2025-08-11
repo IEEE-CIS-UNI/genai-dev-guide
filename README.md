@@ -9,14 +9,15 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
 - **Conocimientos previos**:  
   - Fundamentos de programación (Python preferido).  
   - Nociones básicas de HTTP y APIs.  
-  - Familiaridad con la línea de comandos.  
+  - Familiaridad con la línea de comandos GNU/Linux.  
 
 - **Herramientas necesarias**:  
   - Cuenta en **Google Cloud Platform (GCP)** con acceso a Vertex AI.  
   - Cuenta en **GitHub**.  
   - **Git** instalado.  
   - **Docker** y **docker-compose** instalados.  
-  - Editor de código (VS Code recomendado).  
+  - Editor de código (VS Code recomendado).
+  - Tener VMWare o maquina virtual con S.O GNU/Linux.
 
 - **Otros**:  
   - Conexión a internet estable.  
@@ -39,15 +40,16 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
    - Diferencias entre usuarios, roles y cuentas de servicio.  
    - Creación y gestión de identidades.  
    - Aplicación de políticas de mínimo privilegio.  
-   - Prevención de riesgos de seguridad mediante segmentación de permisos.  
+   - Prevención de riesgos de seguridad mediante segmentación de permisos.
+   - Implementanción de Terraform en la administración de roles de IAM en GCP.
 
 3. **Control de Versiones con Git & GitHub**  
    - Concepto de control de versiones.  
    - Comandos esenciales (`git add`, `git commit`, `git push`, `git pull`, `branch`, `merge`).  
    - Flujo de trabajo con ramas.  
-   - Uso de pull requests.  
-   - Resolución de conflictos.  
-   - Buenas prácticas de commit.  
+   - Uso de pull requests.
+   - Resolución de conflictos.
+   - Buenas prácticas de commit.
 
 4. **Entornos Consistentes con Docker**  
    - Qué es un contenedor y sus ventajas para portabilidad.  
@@ -80,7 +82,8 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
    - Creación de rutas y manejo de peticiones.  
    - Uso de parámetros y query strings.  
    - Validación de datos.  
-   - Respuestas personalizadas.  
+   - Respuestas personalizadas.
+   - Manejo correcto de Logs para la observabilidad.
    - Ejemplo: API para un catálogo de productos.  
 
 ---
