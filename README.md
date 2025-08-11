@@ -12,7 +12,7 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
   - Familiaridad con la línea de comandos GNU/Linux.  
 
 - **Herramientas necesarias**:  
-  - Cuenta en **Google Cloud Platform (GCP)** con habilitación de facturación.  
+  - Cuenta en **Google Cloud Platform (GCP)** con habilitación de facturación(tendremos 300$ de créditos en la plataforma).  
   - Cuenta en **GitHub**.  
   - **Git** instalado.  
   - **Docker** y **docker-compose** instalados.  
