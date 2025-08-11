@@ -54,9 +54,10 @@ Un recorrido práctico para llevar una idea desde cero hasta un despliegue produ
 4. **Entornos Consistentes con Docker**  
    - Qué es un contenedor y sus ventajas para portabilidad.  
    - Creación de un `Dockerfile` desde cero.  
-   - Gestión de imágenes y contenedores.  
+   - Gestión de imágenes y contenedores.
+   - Técnicas de seguridad en las plantillas de Dockerfile.
    - Uso de `docker-compose` para aplicaciones con múltiples servicios.  
-   - Ejemplo práctico: app + base de datos.  
+   - Ejemplo práctico: app + base de datos. 
 
 ---
 
